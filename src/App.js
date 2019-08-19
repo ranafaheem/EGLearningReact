@@ -17,6 +17,11 @@ import  Greet  from './FunctionalComponents/Greet'
 import GreetDestructing from './FunctionalComponents/GreetDestructing'
 import FunctionClick from './FunctionalComponents/FunctionClick'
 
+//  Conditional Rendering
+import UserGreeting from './RenderingComponents/IfElse'
+import ElementVariable from './RenderingComponents/ElementVariable';
+import TernaryOperator from './RenderingComponents/TernaryOperator'
+import ShortCircuitOperator from './RenderingComponents/ShortCircuitOperator';
 
 function App() {
   return (
@@ -64,6 +69,12 @@ function App() {
 
         {/* EventHandling */}
         {/* <FunctionClick></FunctionClick> */}
+
+        {/* Rendering */}
+        {/* <UserGreeting></UserGreeting> */}
+        {/* <ElementVariable></ElementVariable> */}
+        <TernaryOperator></TernaryOperator>
+        <ShortCircuitOperator></ShortCircuitOperator>
       </header>
     </div>
   );
