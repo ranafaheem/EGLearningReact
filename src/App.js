@@ -30,7 +30,11 @@ import Stylesheet from './Styling/Stylesheet'
 import Inline from './Styling/Inline'
 
 //Form Handling
-import Bacisform from './Forms/Basicform'
+import Basicform from './Forms/Basicform'
+
+
+//Life Cycle of Components
+import LifeCycleA from './LifeCycleComponents/LifeCycleA'
 
 function App() {
   return (
@@ -90,7 +94,14 @@ function App() {
         {/* Styling CSS */}
         {/* <Stylesheet primary={false}></Stylesheet> */}
         {/* <Inline></Inline> */}
-        <Bacisform></Bacisform>
+        
+        {/* Form Handling */}
+         {/* <Basicform></Basicform>  */}
+
+        {/* Life Cycle of components */}
+         <LifeCycleA></LifeCycleA>
+
+
       </header>
     </div>
   );
