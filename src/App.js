@@ -22,6 +22,15 @@ import UserGreeting from './RenderingComponents/IfElse'
 import ElementVariable from './RenderingComponents/ElementVariable';
 import TernaryOperator from './RenderingComponents/TernaryOperator'
 import ShortCircuitOperator from './RenderingComponents/ShortCircuitOperator';
+import ListRendering from './RenderingComponents/ListRendering';
+import IndexAsaKey from './RenderingComponents/IndexAsaKey'
+
+// Styling
+import Stylesheet from './Styling/Stylesheet'
+import Inline from './Styling/Inline'
+
+//Form Handling
+import Bacisform from './Forms/Basicform'
 
 function App() {
   return (
@@ -54,7 +63,7 @@ function App() {
         {/* <EventBind></EventBind> */}
         
         {/* Child Parent communication */}
-        <ParentComponent></ParentComponent>
+        {/* <ParentComponent></ParentComponent> */}
       {/* Functional Components */} 
 
         {/* Understanding of Functional components */}
@@ -73,8 +82,15 @@ function App() {
         {/* Rendering */}
         {/* <UserGreeting></UserGreeting> */}
         {/* <ElementVariable></ElementVariable> */}
-        <TernaryOperator></TernaryOperator>
-        <ShortCircuitOperator></ShortCircuitOperator>
+        {/* <TernaryOperator></TernaryOperator> */}
+        {/* <ShortCircuitOperator></ShortCircuitOperator> */}
+        {/* <ListRendering></ListRendering> */}
+        {/* <IndexAsaKey></IndexAsaKey> */}
+
+        {/* Styling CSS */}
+        {/* <Stylesheet primary={false}></Stylesheet> */}
+        {/* <Inline></Inline> */}
+        <Bacisform></Bacisform>
       </header>
     </div>
   );
