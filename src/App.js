@@ -36,6 +36,15 @@ import Basicform from './Forms/Basicform'
 //Life Cycle of Components
 import LifeCycleA from './LifeCycleComponents/LifeCycleA'
 
+//Fragment
+import FragementDemo from './Fragments/FragementDemo'
+import Table from './Fragments/Table'
+
+
+//Pure Component
+// import PureComp from './PureComponent/PureComp'
+// import RegularComponent from './PureComponent/RegularComponent'
+import TParentComponent from './PureComponent/TParentComponent'
 function App() {
   return (
     <div className="App">
@@ -99,9 +108,17 @@ function App() {
          {/* <Basicform></Basicform>  */}
 
         {/* Life Cycle of components */}
-         <LifeCycleA></LifeCycleA>
+         {/* <LifeCycleA></LifeCycleA> */}
+
+        {/* Fragement */}
+        {/* <FragementDemo></FragementDemo> */}
+        {/* <Table></Table> */}
 
 
+        {/* Pure Components */}
+        {/* <PureComp></PureComp> */}
+        {/* <RegularComponent></RegularComponent> */}
+        <TParentComponent></TParentComponent>
       </header>
     </div>
   );

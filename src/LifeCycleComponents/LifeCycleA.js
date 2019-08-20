@@ -19,13 +19,35 @@ class LifeCycleA extends Component {
     
     componentDidMount() {
         console.log('LifecycleA componentDidMount')
+        return true
     }
 
+    shouldComponentUpdate() {
+        console.log('LifecycleA shouldComponentUpdate ')
+        return true
+    }
+
+    getSnapshotBeforeUpdate() {
+        console.log('lifecycleA getSnapshotBeforeUpdate')
+        return null
+    }
+
+    componentDidUpdate() {
+        console.log('lifecycleA componentDidUpdate')
+    }
+
+
+    changeState = () => {
+        this.setState({
+            name:'RMF'
+        })
+    }
     render() {
         console.log('Life Cycle A render')
         return (
             <div>
                 Life Cycle Component A
+                <button onClick={this.changeState}>Change State</button>
                 <LifeCycleB/>
             </div>
            
